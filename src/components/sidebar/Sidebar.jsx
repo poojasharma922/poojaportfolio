@@ -15,7 +15,7 @@ const Sidebar = () => {
         <div className="nav__menu">
           <ul className="nav__list">
             <li className="nav__item">
-              <a href="home" className="nav__link">
+              <a href="#home" className="nav__link">
                 <i className='icon-home'></i>        {/* simple line icons */}
               </a>
             </li>
