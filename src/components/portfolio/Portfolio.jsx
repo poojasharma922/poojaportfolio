@@ -23,13 +23,13 @@ const Portfolio = () => {
   }
   return (
     <section className="work container section" id="portfolio">
-      <h2 className="section__title" style={{textAlign: 'center'}}>Projects</h2>
+      <h2 className="section__title threedtitle" style={{textAlign: 'center'}}>PROJECTS</h2>
 
       <div className="work__filters">
         <span className="work__item" onClick={()=> setItems(Menu)}>All</span>
         <span className="work__item" onClick={()=> filterItem("HTML/CSS/JS")}>HTML/CSS/JS</span>
         {/* <span className="work__item" onClick={()=> filterItem("React")}>React</span> */}
-        <span className="work__item" onClick={()=> filterItem("React/Node")}>React/Node</span>
+        <span className="work__item" onClick={()=> filterItem("ReactJS/Mern")}>ReactJS/Mern</span>
         <span className="work__item" onClick={()=> compItem("yes")}>Completed</span>
         <span className="work__item" onClick={()=> compItem("no")}>On Going</span>
 
@@ -47,9 +47,12 @@ const Portfolio = () => {
 
               <span className="work__category">{category}</span>
               <h3 className="work__title">{title}</h3>
+              
               <a href={webLINK} className="work__button" target='_blank' rel='noreferrer'>
                 <i className="icon-link work__button-icon"> </i>
+               
                 </a>
+                
               
             </div>
           )

@@ -16,29 +16,30 @@ const data = [
     image: Image2,
     title: "FAMILIAR",
     description:
-      "1) SQL 2)NodeJs 3)MongoDb 4)Express",
+      "1)NodeJs 2)MongoDb 3)Express",
   },
   {
     id: 3,
     image: Image3,
     title: "TOOLS",
     description:
-      "1)VS Code 2)MS Word 3)MS Excel",
+      `1)VS Code 2)MS Word 3)MS Excel`,
   },
 ];
 
 const Skills = () => {
   return (
     <section className="services container section" id='skills'>
-      <h2 className="section__title" style={{textAlign: 'center'}}>Skills</h2>
+
+      <h2 className="section__title threedtitle" style={{textAlign: 'center',}}>SKILLS</h2>
 
       <div className="services__container grid">
         {data.map(({id, image, title, description})=>{
           return(
-            <div className='services__card' key={id}>
-              <img src={image} alt="" className="services__img" style={{width:'80px' , height: "80px" , borderRadius: '50px'}}/>
-              <h3 className="services__title">{title}</h3>
-              <p className="services__description" >{description}</p>
+            <div className='services__card skillcard' key={id}>
+              <img src={image} alt="" className="services__img" style={{width:'90px' , height: "90px" , borderRadius: '70px'}}/>
+              <h3 className="services__title" style={{fontFamily: 'inherit', fontWeight: 'bold', fontSize: '22px' , color: ' black'}}>{title}</h3>
+              <p className="services__description" style={{color: 'black', fontSize: '17px' ,display: 'flex', wordSpacing : '5px', padding: '2px'}}>{description}</p>
 
               
             </div>

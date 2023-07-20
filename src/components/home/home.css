@@ -12,6 +12,7 @@
 }
 
 .home__img{
+    margin-top: 30px;
     margin-bottom: 1.5rem;
     object-fit: cover;
 }
@@ -31,14 +32,88 @@
 
 .home__social-link{
     color: var(--title-color);
-    font-size: 1.3rem;
-    transition: .3s;
+    font-size: 2.3rem;
+   
+    display: inline-block;
+    
+    outline: none;
+    transition-property: outline-offset, outline-color, background-color;
+    transition-duration: 0.25s;
+   
 }
 
 
 .home__social-link:hover{
-    color: hsl(43, 100%, 68%);
+    color: hsl(307, 69%, 26%);
+    outline-offset: 4px;
 
+}
+
+.home__social-link i{
+    margin: auto;
+   
+    
+}
+
+.home__social-link:hover i{
+    animation: shake 0.25s;
+}
+
+@keyframes shake {
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+    30%{
+        transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(-15deg);
+    }
+}
+
+.hireme{
+    padding: 18px 30px;
+    font-size: 16px;
+    border: none;
+    position: relative;
+    cursor:pointer;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: rgb(186, 49, 97);
+    border-radius: 30px;
+    min-width: 120px;
+    color: #fff;
+    z-index: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    transition: all 0.3s;
+
+}
+
+.hireme::before{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    border-left-style: -50px;
+    width: 70%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgb(191, 118, 143), transparent);
+    transition: all 1s;
+    z-index: -1;
+    transform: translateX(-120px) skew(-20deg);
+}
+
+.hireme:hover::before{
+    transform: translateX(300px) skew(-20deg);
+}
+
+.hireme:hover{
+    background: #8c365a;
 }
 
 .scroll__down{

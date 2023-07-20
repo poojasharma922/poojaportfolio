@@ -6,10 +6,10 @@ import Card from './Card';
 const Resume = () => {
   return (
     <section className="resume container section" id="resume">
-      <h2 className="section__title" style={{textAlign: 'center'}}>Education</h2>
+      <h2 className="section__title threedtitle" style={{textAlign: 'center'}}>EDUCATION</h2>
 
       <div className="resume__container grid">
-        <div className="timeline grid">
+        <div className="timeline grid animated">
           {Data.map((val,id)=>{
             
               return(

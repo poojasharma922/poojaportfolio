@@ -45,10 +45,109 @@
     height: 10.25rem;
 }
 
-.contact__form-area textarea{
-    resize: none;
+/* .contact__form-area textarea{
+    /* resize: none;
+} */
+
+.animation{
+    height: 20px;
+    overflow: hidden;
 }
 
+.animation>div>p{
+    display: inline-block;
+    margin-bottom: 3.91rem;
+}
+.animation p{
+    color: black;
+    font-family: cursive;
+}
+.animation div:first-child{
+    animation: text-animation 6s infinite;
+}
+.main23{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* height: 100vh; */
+} 
+
+.first div{
+    background-color: #3157ff;
+}
+
+.second div{
+    background-color: #0ecc44;
+}
+
+
+
+@keyframes text-animation {
+    0%{
+        margin-top: 0;
+    }
+    10%{
+        margin-top: 0;
+    }
+    20%{
+        margin-top: -5.62rem;
+    }
+    30%{
+        margin-top: -5.62rem;
+    }
+    40%{
+        margin-top: -11.24rem;
+    }
+    60%{
+        margin-top: -11.24rem;
+    }
+    70%{
+        margin-top: -5.62rem;
+    }
+    80%{
+        margin-top: -5.62rem;
+    }
+    90%{
+        margin-top: 0;
+    }
+    100%{
+        margin-top: 0;
+    }
+}
+
+.emailbtn{
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    background-color: rgb(230, 194, 206);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #d49d9d;
+}
+
+.emailbtn::before{
+    content: '';
+    width: 0;
+    height: 3rem;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, rgb(219, 73, 124) 0%, #93916d 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+
+.emailbtn:hover::before{
+    width: 9em;
+}
 
 
 @media screen and (max-width:810px) {

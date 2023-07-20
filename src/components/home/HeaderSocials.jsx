@@ -2,6 +2,7 @@ import React from 'react'
 
 const HeaderSocials = () => {
   return (
+    
     <div className='home__socials'>
       <a href="https://www.instagram.com/_poojasharma.__/" className="home__social-link" target='blank'>
       <i class="fa-brands fa-instagram"></i>
