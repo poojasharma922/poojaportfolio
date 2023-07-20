@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/poojaportfolio/static/css/main.11a5800d.css",
+    "main.js": "/poojaportfolio/static/js/main.a8f59dd1.js",
+    "static/media/mail1.jpg": "/poojaportfolio/static/media/mail1.69789bf9969d90e9e727.jpg",
+    "static/media/gnduwebsite.png": "/poojaportfolio/static/media/gnduwebsite.6afba1ab6d434c5cdd44.png",
+    "static/media/meabout.png": "/poojaportfolio/static/media/meabout.ed9715dadf56928661e8.png",
+    "static/media/Bangtan.png": "/poojaportfolio/static/media/Bangtan.c50a6b056bb1e175ed73.png",
+    "static/media/Clock.png": "/poojaportfolio/static/media/Clock.11921942e41b77678f64.png",
+    "static/media/BlogWebsite.png": "/poojaportfolio/static/media/BlogWebsite.7553b7711cb130500b6c.png",
+    "static/media/resumebuilder.png": "/poojaportfolio/static/media/resumebuilder.f9fdb72ff9846c9cdd3c.png",
+    "static/media/pokemon.png": "/poojaportfolio/static/media/pokemon.67bfe4f3b8617d524d7c.png",
+    "static/media/service-4.jpg": "/poojaportfolio/static/media/service-4.0d2aa12defd00c649f21.jpg",
+    "static/media/quizplay.png": "/poojaportfolio/static/media/quizplay.b7c6f88837017287937d.png",
+    "static/media/TextMate.png": "/poojaportfolio/static/media/TextMate.89cc8d939c97247e8f23.png",
+    "static/media/service-6.jpg": "/poojaportfolio/static/media/service-6.33b87eebac47c2280296.jpg",
+    "static/media/todolist.png": "/poojaportfolio/static/media/todolist.58e3cfc4f210487d71b6.png",
+    "static/media/ColorGenerator.png": "/poojaportfolio/static/media/ColorGenerator.669644c84350d345b06b.png",
+    "static/media/award.webp": "/poojaportfolio/static/media/award.d6d5cc6c2c78790ca0f0.webp",
+    "static/media/logo.svg": "/poojaportfolio/static/media/logo.8c2fb23675dc34b2041044d6dd41e4e3.svg",
+    "static/media/dots-bg.svg": "/poojaportfolio/static/media/dots-bg.aa8289c51cd678b8cd47.svg",
+    "index.html": "/poojaportfolio/index.html",
+    "main.11a5800d.css.map": "/poojaportfolio/static/css/main.11a5800d.css.map",
+    "main.a8f59dd1.js.map": "/poojaportfolio/static/js/main.a8f59dd1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11a5800d.css",
+    "static/js/main.a8f59dd1.js"
+  ]
+}
