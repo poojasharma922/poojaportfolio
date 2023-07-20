@@ -22,7 +22,7 @@ const About = () => {
             A highly organized and hardworking student pursuing Bachelor's degree seeking a challenging position in a reputed organization where I can learn new skills, expand my knowledge, and leverage my learnings
              
             </p>
-              <Link to="https://drive.google.com/file/d/1HC8cizgEB9ncamAgBjKT8xkl5OA7WfXN/view?usp=sharing" target='blank' className="btn cvbtn" >Get CV</Link>
+              <Link to="https://drive.google.com/file/d/1-zKlSIFF8flo-KyKkIGghLtnO4RIi3bo/view?usp=sharing" target='blank' className="btn cvbtn" >Get CV</Link>
               
           </div>
 
